@@ -1,0 +1,21 @@
+{
+  "repo": "curve-dental",
+  "feeds": [
+    {
+      "source": "https://www.curvedental.com/",
+      "feed_url": "https://www.curvedental.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.curvedental.com/blog",
+      "feed_url": "https://www.curvedental.com/blog/rss.xml",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-07-20T13:31:34Z"
+}

@@ -1,8 +1,15 @@
 aid: curve-dental
 name: Curve Dental
-description: Curve Dental is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Curve Dental is a cloud-based, all-in-one dental practice management software company founded in 2004
+  and headquartered in Alpharetta, Georgia. Its flagship platform, Curve Hero, serves more than 80,000
+  dental professionals across the United States and Canada, unifying scheduling, clinical and perio
+  charting, imaging, billing, insurance, smart forms, reporting, patient engagement, and business
+  analytics in a single browser-based system. Curve is privately held and backed by Battery Ventures,
+  and connects to a growing ecosystem of integration partners (including DentalXChange, DentalHQ, Pearl
+  AI, Bola AI, and Mango Voice) rather than exposing a public self-serve developer API. This profile was
+  seeded from Battery Ventures' portfolio and enriched from Curve Dental's public web surface; no public
+  OpenAPI, SDK, or developer portal was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/curve-dental/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +17,63 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.curvedental.com/hubfs/Vector%20Images%20-%20need%20to%20be%20converted%20to%20svg/CurveDental_New%20Logos_square%20full%20color%20on%20transp%20(1)-1.png
 tags:
 - Company
+- Dental
+- Healthcare
+- Practice Management
+- Health IT
+- Cloud Software
+- SaaS
+- Patient Engagement
+- Medical Billing
+- Imaging
 apis: []
+common:
+- type: DomainSecurity
+  url: security/curve-dental-domain-security.yml
+- type: Website
+  url: https://www.curvedental.com/
+- type: Blog
+  url: https://www.curvedental.com/blog
+- type: BlogRSS
+  url: https://www.curvedental.com/blog/rss.xml
+- type: Pricing
+  url: https://www.curvedental.com/pricing
+- type: Support
+  url: https://www.curvedental.com/customer-service
+- type: TermsOfService
+  url: https://www.curvedental.com/terms
+- type: PrivacyPolicy
+  url: https://www.curvedental.com/privacypolicy
+- type: GitHubOrganization
+  url: https://github.com/curvedental
+- type: About
+  url: https://www.curvedental.com/about
+- type: Integrations
+  url: https://www.curvedental.com/partner-list
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
